@@ -1,0 +1,6 @@
+includes: ['layer:basic','layer:apt','interface:http']
+options:
+  apt:
+    packages:
+      - npm
+repo: https://github.com/juanmanuel-tirado/node-red-charm

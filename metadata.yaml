@@ -1,0 +1,24 @@
+name: nodered
+summary: Low-code programming for event-driven applications.
+maintainer: Juan M. Tirado <juan.tirado@canonical.com>
+series:
+  - focal
+description: |
+  Node-RED is a programming tool for wiring together hardware 
+  devices, APIs and online services in new and interesting ways.
+  
+  It provides a browser-based editor that makes it easy to wire 
+  together flows using the wide range of nodes in the palette 
+  that can be deployed to its runtime in a single-click.
+display-name: RedNode
+tags:
+  - iot
+  - application_development
+subordinate: false
+storage:
+  app:
+    type: filesystem
+    location: /srv/app
+provides:
+  website:
+    interface: http

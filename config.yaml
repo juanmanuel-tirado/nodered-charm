@@ -1,0 +1,11 @@
+options:
+  port:
+    description: |
+      Node-Red server port. By default 1880.
+    type: int
+    default: 1880
+  title:
+    description: |
+      Process window title.
+    type: string
+    default: "NodeRed"
