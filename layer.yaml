@@ -3,4 +3,4 @@ options:
   apt:
     packages:
       - npm
-repo: https://github.com/juanmanuel-tirado/node-red-charm
+repo: https://github.com/juanmanuel-tirado/nodered-charm
